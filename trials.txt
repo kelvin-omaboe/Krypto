@@ -1,0 +1,85 @@
+  <div class="container choose-container mx-6" id="choose" name="choose">
+        <div class="row">
+            <div class="col choose-left col-md-8 ">
+                <h3>Tools on Shouout Gh</h3>
+                <h1>Why choose DigiLearn?</h1>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem soluta tempore corrupti unde 
+                    at? Repellendus est eos, eaque velit 
+                    excepturi suscipit at deleniti vero iure architecto dolorum quibusdam dolor qui?</h5>
+
+                <div class="faded-line"></div>   
+                
+                <div class="choose-icons">
+                    <div class="icon">
+                        <i class="fas fa-book"></i>
+                        <h4>Interactive Learning</h4>
+                    </div>
+
+                    <div class="icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h4>Expert Instructors</h4>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-users"></i>
+                        <h4>Community Support</h4>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Mobile Friendly</h4>
+                    </div>    
+                </div>    
+            </div>
+
+            <div class="col choose-right col-md-4">
+                <img src="assets/1.jpg" alt="Choose DigiLearn" class="choose-image">
+                <img src="assets/1.jpg" alt="Choose DigiLearn" class="choose-image">
+
+            </div>
+        </div>
+    </div> 
+
+
+    /*choose us styling */
+.choose-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 40px;
+    margin-top: 100px;
+
+}
+.choose-container .row{
+    margin-left:-5%;
+}
+.choose-left h3{
+    font-size: 2rem;
+    color: #E11E39;
+    margin-top: 5%;
+}
+.choose-left h1{
+    margin-top: 7%;
+    font-size: 4rem;
+    color: black;
+}
+.choose-left h5{
+    font-size: 1.3rem;
+    color: rgba(150, 147, 147, 0.795);
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+.choose-right img{
+    margin-top: 15%;
+}
+.choose-icons .icon{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.choose-icons .icon i{
+    font-size: 1.5rem;
+    color: #333;
+}
