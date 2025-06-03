@@ -1,0 +1,316 @@
+@media (min-width: 600px) and (max-width: 1024px) {
+
+    /* Navbar adjustments */
+    #navbar {
+        width: 90%;
+        margin: 15px 20px;
+        height: 70px;
+        padding: 8px 20px;
+    }
+
+    .nav-links {
+        gap: 30px;
+        display: flex;
+        padding: 10px 20px;
+        height: 5vh;
+    }
+
+    .nav-links li {
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .nav-links li:hover {
+        color: #2677B8;
+        text-decoration: underline;
+        text-decoration-color: #2677B8;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 4px;
+        text-underline-position: under;
+        text-decoration-style: solid;
+        text-decoration-skip-ink: none;
+        text-decoration-skip: objects;
+        transition: all 0.3s ease;
+    }
+
+    .nav-links li a {
+        font-size: 1rem;
+    }
+
+    .nav-btns {
+        gap: 15px;
+        margin: 0 15px;
+    }
+
+    #signup-btn {
+        font-size: 1rem;
+        height: 7vh;
+        width: 20vw;
+        padding: 8px 15px;
+    }
+
+    #signup-btn:hover {
+        background-color: #ffffff;
+        color: #E11E39;
+        border: 2px solid #E11E39;
+        transition: all 0.3s ease;
+    }
+
+    #login-btn {
+        font-size: 1rem;
+        height: 7vh;
+        padding: 0px 15px;
+    }
+
+    #login-btn:hover {
+        background-color: #2677B8;
+        color: #ffffff;
+        transition: all 0.3s ease;
+    }
+
+    /* Mini navbar adjustments */
+    .mini-navbar {
+        width: 70%;
+        height: 8vh;
+        margin: 0 auto 10px auto;
+    }
+
+    .mininavbar-links {
+        gap: 0%;
+        padding-top: 15px;
+    }
+
+    .mininavbar-links li a {
+        font-size: 1rem;
+    }
+
+    .mininavbar-links li {
+        padding: 6px 30px;
+    }
+
+    .mininavbar-links li:hover {
+        color: #ffffff;
+        background-color: #E11E39;
+        border-radius: 30px;
+        padding: 8px 50px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .mininavbar-links li.active {
+        background-color: #E11E39;
+        color: #ffffff;
+        border-radius: 30px;
+        padding: 8px 50px;
+        transition: all 0.3s ease;
+    }
+
+    .mininavbar-links li:hover {
+        color: #ffffff;
+        background-color: #E11E39;
+        border-radius: 30px;
+        padding: 8px 50px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .mininavbar-links li.active {
+        background-color: #E11E39;
+        color: #ffffff;
+        border-radius: 30px;
+        padding: 8px 50px;
+        transition: all 0.3s ease;
+    }
+
+    /* Hero section adjustments */
+    .hero-content {
+        flex-direction: row;
+        padding: 0 20px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .hero-text-left {
+        margin: 30px 0 20px 0;
+        font-size: 1.5rem;
+        text-align: left;
+        flex: 1;
+        box-sizing: border-box;
+    }
+
+    .hero-text-left h1 {
+        font-size: 5rem;
+        margin-bottom: 15px;
+    }
+
+    .hero-text-left button {
+        margin: 20px auto 0 130px;
+        padding: 10px 25px;
+        font-size: 1.2rem;
+    }
+
+    .hero-text-right {
+        text-align: left;
+        font-size: 0.9rem;
+        margin-bottom: 30px;
+        flex: 1;
+        box-sizing: border-box;
+    }
+
+    .hero-text-right h1 {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+
+    .hero-text-right img {
+        height: auto;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    /* About section adjustments */
+    .about {
+        flex-direction: column;
+        padding: 0 20px;
+        margin-top: 50px;
+    }
+
+    .about-text-left,
+    .about-text-right {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 1rem;
+    }
+
+    .about-text-left {
+        margin: 0 0 20px 0;
+    }
+
+    .about-text-right img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* Why section adjustments */
+    .why-section {
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+
+    .why-section h2 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+
+    .why-section h3 {
+        margin-bottom: 30px;
+    }
+
+    .why-section p {
+        font-size: 1.1rem;
+        margin-top: 15px;
+    }
+
+    .why-list {
+        gap: 15px;
+        font-size: 1.1rem;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+    }
+
+    /* Signup container adjustments */
+    .signup-container {
+        height: auto;
+        padding: 30px 20px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .signup-container h3 {
+        font-size: 3rem;
+        margin-left: -30%;
+
+    }
+
+    .signup-container p {
+        font-size: 1rem;
+        margin-left: -20%;
+
+    }
+
+    .signup-container button {
+        margin: 35% auto;
+        padding: 12px 60px;
+        font-size: 1.2rem;
+        display: block;
+    }
+
+    /* Pic container adjustments */
+    .pic-container {
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+
+    .pic-container>.row {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .pic-container img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 0px;
+    }
+
+    .left-pic {
+        height: auto;
+        display: flex;
+    }
+
+    .right-pic {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
+    }
+
+    .right-pic p {
+        margin: 20px 0;
+        font-size: 1.1rem;
+    }
+
+    /* Categories section adjustments */
+    .categories-section {
+        flex-direction: column;
+        padding: 0 20px;
+        margin-top: 30px !important;
+    }
+
+    .categories-section h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .category-card {
+        width: 100%;
+        height: auto !important;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .category-card .card-body {
+        padding: 10px;
+        font-size: 1rem;
+    }
+}
